@@ -105,7 +105,8 @@ body{
 
 .carousel-item {
     padding-top: 70px;
-    padding-bottom: 40px;
+    padding-bottom: 40px; 
+    transition(.8s ease-in-out left);
 }
 
 /*-- Do & See Section --*/
@@ -135,9 +136,7 @@ h3.heading {
 .destinations {
     overflow: hidden;
 }
-.card {
-    margin: 3rem;
-}
+
 
 
 /*--- Media queries Carousel --*/
@@ -544,15 +543,20 @@ footer svg.svg-inline--fa:hover {
 /*---mediaDestinations--*/
 
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
     .row no-padding { 
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
     }
-    .row no-padding div { 
-        margin: 0; 
-        width: 200px;
+}
+
+@media screen and (max-width: 479px) {
+	.snip0016 h2 {
+        font-size: 35px;
+    }
+    .snip0016 p {
+        font-size: 10px;
     }
 }
 
@@ -570,11 +574,9 @@ margin-top: .5rem;
     background-color: darkorange!important; 
 }
 
-.bm--card-equal-height {
-   display: flex;
-   flex-direction: column;
-   height: 100%;
-}
+
+
+
 
 
 
@@ -706,3 +708,130 @@ figure.snip0016:hover figcaption::before {
 
 
 
+@media screen and (max-width: 999px) {
+	.snip0016 h2 {
+        font-size: 15px;
+    }
+    .snip0016 p {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 579px) {
+	.snip0016 h2 {
+        font-size: 32px;
+    }
+    .snip0016 p {
+        font-size: 15px;
+    }
+}
+@media screen 
+  and (min-width: 580px)
+    and (max-width: 998px) {
+        .snip0016 p {
+            color: transparent;
+        }
+}
+
+/*--dinning experience --*/
+#restaurants {
+    padding-top: 40px;
+}
+#restaurants img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.cards {
+  display: flex;
+min-height: 100%;
+   align-items: stretch;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 0.rem 0 0 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+      height: 100%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+ align-items: stretch;
+  flex-direction: column;
+  overflow: hidden;
+    margin: 1rem;
+}
+
+.card_content {
+  padding: 1rem;
+  background-color: dimgray;
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0px;
+  text-align: center;
+    padding-bottom: 10px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  text-align: center;
+}
+.main {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+#restaurants btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+    text-align: center;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+.card_btn {
+    align-content: center;
+}
+.btn:hover {
+  background-color: darkorange;
+}
+
+
+#destinations {
+  max-width: 1900px;
+  margin: 0 auto;
+}
