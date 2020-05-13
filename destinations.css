@@ -6,84 +6,9 @@ body {
 
 
 
-figcaption {
-   font-size: 14px; 
-    font-style: lighter;
-}
-
-#mulafossur {
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', ;
-    text-align: left;
-    margin-top: 12px;
-}
-
-#mykines {
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', ;
-    text-align: left;
-    margin-top: 12px;
-}
-
-#sandavagur {
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', ;
-    text-align: left;
-    margin-top: 12px;
-}
-#torshavn {
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', ;
-    text-align: left;
-    margin-top: 12px;
-}
 
 
 
-#mykines:target {
-    color: darkorange;
-}
-#torshavn:target {
-    color: darkorange;
-}
-#sandavagur:target {
-    color: darkorange;
-}
-#mulafossur:target {
-    color: darkorange;
-}
-
-
-
-
-.textundermap {
-  margin: 1rem;
-padding-top: 60px;
-}
-@media (min-width:1215px) {
-  .textundermap {
-    max-width: 1170px;
-    margin: 1rem auto;
-  }
-}
-.textundermap {
-  margin-top: 2rem;
-  -webkit-columns: 3;
-          columns: 3;
-  -webkit-column-width: 230px;
-          column-width: 230px;
- text-align: justify;
- column-gap: 30px;
- font-size: 14px;
-}
 
 
 
@@ -249,8 +174,8 @@ padding-top: 60px;
 .imagetop img {
   width: 100%;
   display: block;
-  padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top:20px;
+    padding-bottom: 0px;
 }
 .imagetop img {
   margin: 1rem;
